@@ -1,6 +1,43 @@
-body{
-    font-family: 'Poppins', sans-serif;;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
+}
+.orange {
+  color: orange;
+}
+section {
+  display: flex;
+  margin-bottom: 80px;
+}
+.top-part {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.half-div {
+  width: 40%;
+  padding-left: 7%;
+}
+.half-div img {
+  width: 100%;
+}
+.my-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(lightsalmon, tomato);
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.middle-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
