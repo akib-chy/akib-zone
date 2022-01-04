@@ -73,3 +73,38 @@ h2 {
   text-align: center;
   color: dimgray;
 }
+
+/* medea */
+@media screen and (max-width: 574px) {
+  body {
+    padding: 0;
+  }
+  .flex-container {
+    display: block;
+  }
+  .half-div {
+    width: 80%;
+    text-align: center;
+  }
+  .half-div img {
+    width: 80%;
+    margin-top: 40px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .box-section {
+    display: block;
+    margin-left: 6%;
+  }
+  .box {
+    width: 80%;
+    padding: 2% 2%;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
