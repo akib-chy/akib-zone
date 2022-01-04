@@ -73,14 +73,22 @@ h2 {
   text-align: center;
   color: dimgray;
 }
+.d-block {
+  display: none;
+}
 
 /* medea */
 @media screen and (max-width: 574px) {
-  body {
-    padding: 0;
+  * {
+    margin: 0;
+  }
+  .top-part {
+    display: none;
   }
   .flex-container {
     display: block;
+    margin-bottom: 15px;
+    padding-top: 25px;
   }
   .half-div {
     width: 80%;
@@ -88,7 +96,7 @@ h2 {
   }
   .half-div img {
     width: 80%;
-    margin-top: 40px;
+    margin-top: 50px;
   }
   h1 {
     font-size: 35px;
@@ -106,5 +114,22 @@ h2 {
     padding: 2% 2%;
     margin-top: 30px;
     text-align: center;
+  }
+
+  .middle-section {
+    display: none;
+    background: none;
+  }
+  .d-block {
+    display: block;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .box {
+    padding-top: 5%;
+  }
+  .box h3 {
+    padding: 5% 0;
   }
 }
